@@ -31,7 +31,7 @@ async def hello(ctx):
 
 @client.command()
 async def introduce(ctx):
-	await ctx.send("Hi, I am RKS a bot by Aryaman")
+	await ctx.send("Hi, I am RKS a Moderation/Social bot..I love to talk to everybody")
 
 
 @client.command()
