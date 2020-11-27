@@ -6,7 +6,7 @@ from discord.ext import tasks
 import asyncio
 import functools
 from discord.ext import commands
-client = commands.Bot(command_prefix='!')
+client = commands.Bot(command_prefix='!',,case_insensitive=True)
 
 
 @client.event
